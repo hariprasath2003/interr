@@ -34,7 +34,7 @@ def save_to_csv(data, filename='weather_data.csv'):
 
 
 if __name__ == "__main__":
-    # Replace 'YOUR_API_KEY' with your actual OpenWeatherMap API key
+    
     api_key = 'YOUR_API_KEY'
     cities = ['London', 'New York', 'Tokyo', 'Paris', 'Sydney']
 
