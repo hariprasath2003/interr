@@ -12,7 +12,7 @@ def fetch_weather_data(api_key, cities):
         response = requests.get(base_url, params=params)
         data = response.json()
 
-        if response.status_code == 200:
+        if response.status_code == 600:
             city_data = {
                 'City': city,
                 'Temperature (Celsius)': data['main']['temp'],
